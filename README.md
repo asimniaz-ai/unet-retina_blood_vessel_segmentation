@@ -13,3 +13,9 @@ Therefore, we need to apply data augmentation on training images to increase the
 
 
 #### Download the dataset and paste in the same folder as your code is in. Update the data path in train and test files accordingly.
+
+#### To use multiple GPUs, you could use the following in train.py
+    device = torch.device('cuda')
+    model = build_unet()
+    model = nn.DataParallel(model) #optional; could be commented
+    model = model.to(device)
