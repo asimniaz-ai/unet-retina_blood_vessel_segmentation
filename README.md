@@ -10,3 +10,6 @@ This repository contains code for the Retina Blood Vessel Segmentation using U-N
 #### [DRIVE 2004]: https://www.kaggle.com/datasets/zionfuo/drive2004
 The Drive 2004 dataset contains Digital Retinal Images for Vessel Extractions. For training and testing it has 20 images each. 
 Therefore, we need to apply data augmentation on training images to increase the size of our training dataset.
+
+
+#### Download the dataset and paste in the same folder as your code is in. Update the data path in train and test files accordingly.
